@@ -53,7 +53,7 @@ export function ActivityHeatmap({
           {legend.map((entry, i) => (
             <div
               key={i}
-              className={`h-2.5 w-2.5 ${entry.className} border border-black/5 dark:border-white/5`}
+              className={`h-2.5 w-2.5 ${entry.className} border border-black/5 dark:border-white/5 rounded-md`}
             />
           ))}
         </div>
@@ -108,7 +108,7 @@ export function ActivityHeatmap({
                     }}
                     onMouseEnter={() => onSelect(day)}
                     aria-disabled={!clickable}
-                    className={`h-2 w-2 transition-all duration-300 sm:h-2.5 sm:w-2.5 ${
+                    className={`h-2 w-2 transition-all duration-300 sm:h-2.5 sm:w-2.5 rounded-md ${
                       bgClasses[intensity]
                     } ${active ? "scale-125 z-10" : ""} ${
                       clickable ? "cursor-pointer" : "cursor-default"

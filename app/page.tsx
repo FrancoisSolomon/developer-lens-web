@@ -12,7 +12,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen items-center justify-center p-6 bg-[radial-gradient(ellipse_at_top,var(--tw-gradient-stops))] from-primary/20 via-background to-background">
-      <div className="w-full max-w-xl overflow-hidden border border-border/50 bg-card/60 shadow-2xl dark:shadow-none backdrop-blur-xl">
+      <div className="w-full max-w-xl overflow-hidden border border-border/50 bg-card/60 shadow-2xl dark:shadow-none backdrop-blur-xl rounded-xl">
         <div className="p-8 pb-4 py-12">
           <div className="mb-6 flex items-center justify-between">
             <div className="flex h-8 w-8 items-center justify-center text-primary">

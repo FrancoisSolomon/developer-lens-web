@@ -7,7 +7,7 @@ export function GitHubSignInButton() {
     <button
       type="button"
       onClick={() => signIn("github", { callbackUrl: "/" })}
-      className="group relative h-12 w-full cursor-pointer overflow-hidden bg-primary px-5 text-sm font-semibold text-primary-foreground transition-all duration-700 ease-in-out"
+      className="group relative h-12 w-full cursor-pointer overflow-hidden bg-primary px-5 text-sm font-semibold text-primary-foreground transition-all duration-700 ease-in-out rounded-xl"
     >
       <div className="absolute inset-0 bg-muted opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100" />
 

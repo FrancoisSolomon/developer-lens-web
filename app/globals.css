@@ -133,7 +133,7 @@
   }
 
   html {
-    @apply font-mono antialiased;
+    @apply font-sans antialiased;
   }
 }
 
